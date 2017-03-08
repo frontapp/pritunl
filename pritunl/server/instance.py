@@ -864,7 +864,7 @@ class ServerInstance(object):
 
             os.makedirs(self._temp_path)
 
-            self.enable_ip_forwarding()
+            # self.enable_ip_forwarding()
             self.bridge_start()
 
             if self.server.replicating and self.server.vxlan:
